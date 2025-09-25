@@ -13,7 +13,7 @@ config_version=5
 config/name="ResourcesLearning"
 run/main_scene="uid://7hy4x4cf8qbw"
 config/features=PackedStringArray("4.5", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://Textures/icon.svg"
 
 [display]
 

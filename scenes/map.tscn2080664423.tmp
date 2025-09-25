@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://7hy4x4cf8qbw"]
+
+[ext_resource type="PackedScene" uid="uid://c5gqi1dkhq12l" path="res://scenes/gun.tscn" id="1_4xfga"]
+[ext_resource type="Resource" uid="uid://8kjnws4aicyv" path="res://Resources/pistol_comp_bullets.tres" id="2_paxxb"]
+
+[node name="Map" type="Node2D"]
+
+[node name="Gun" parent="." instance=ExtResource("1_4xfga")]
+comps = ExtResource("2_paxxb")

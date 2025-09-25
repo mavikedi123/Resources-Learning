@@ -1,7 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://7hy4x4cf8qbw"]
-
-[ext_resource type="PackedScene" uid="uid://c5gqi1dkhq12l" path="res://gun.tscn" id="1_c7s6e"]
-
-[node name="Map" type="Node2D"]
-
-[node name="Gun" parent="." instance=ExtResource("1_c7s6e")]
