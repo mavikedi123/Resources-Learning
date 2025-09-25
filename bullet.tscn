@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dx58x347l2q2i"]
+
+[ext_resource type="Script" uid="uid://c7ov6oas81xr0" path="res://bullet.gd" id="1_v7oki"]
+[ext_resource type="Resource" uid="uid://ckeot18j23kgb" path="res://Resources/Bullet_classic.tres" id="2_v8qja"]
+
+[node name="Bullet" type="Node2D"]
+script = ExtResource("1_v7oki")
+bullet_data = ExtResource("2_v8qja")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]

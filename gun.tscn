@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://c5gqi1dkhq12l"]
+
+[ext_resource type="Script" uid="uid://chu6wihb12qy3" path="res://Gun.gd" id="1_vk1bi"]
+[ext_resource type="Resource" uid="uid://ckeot18j23kgb" path="res://Resources/Bullet_classic.tres" id="2_dk5gl"]
+[ext_resource type="Texture2D" uid="uid://bw3a5oqocsmj8" path="res://Textures/gun_test.png" id="3_kw0bs"]
+
+[node name="Gun" type="Node2D"]
+script = ExtResource("1_vk1bi")
+bullet = ExtResource("2_dk5gl")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("3_kw0bs")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Muzzle" type="Node2D" parent="."]
+position = Vector2(4, -2)
