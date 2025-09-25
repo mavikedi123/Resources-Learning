@@ -1,12 +1,12 @@
 [gd_scene load_steps=4 format=3 uid="uid://c5gqi1dkhq12l"]
 
-[ext_resource type="Script" uid="uid://chu6wihb12qy3" path="res://Gun.gd" id="1_vk1bi"]
-[ext_resource type="Resource" uid="uid://ckeot18j23kgb" path="res://Resources/Bullet_classic.tres" id="2_dk5gl"]
+[ext_resource type="Script" uid="uid://chu6wihb12qy3" path="res://Scripts/Gun.gd" id="1_vk1bi"]
+[ext_resource type="PackedScene" uid="uid://dx58x347l2q2i" path="res://scenes/bullet.tscn" id="2_gp1hk"]
 [ext_resource type="Texture2D" uid="uid://bw3a5oqocsmj8" path="res://Textures/gun_test.png" id="3_kw0bs"]
 
 [node name="Gun" type="Node2D"]
 script = ExtResource("1_vk1bi")
-bullet = ExtResource("2_dk5gl")
+bullet = ExtResource("2_gp1hk")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 1

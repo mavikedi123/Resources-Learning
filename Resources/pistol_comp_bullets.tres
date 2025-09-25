@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="comp_bullets" load_steps=4 format=3 uid="uid://8kjnws4aicyv"]
+
+[ext_resource type="Script" uid="uid://cb1b3c22fwasd" path="res://Scripts/ResourceTest.gd" id="1_b65wt"]
+[ext_resource type="Resource" uid="uid://ckeot18j23kgb" path="res://Resources/Bullet_classic.tres" id="3_ahac6"]
+[ext_resource type="Script" uid="uid://7arnhwjintaf" path="res://Scripts/Comp_Bullets.gd" id="5_xkl57"]
+
+[resource]
+script = ExtResource("5_xkl57")
+BulletTypes = Array[ExtResource("1_b65wt")]([ExtResource("3_ahac6")])
+metadata/_custom_type_script = "uid://7arnhwjintaf"

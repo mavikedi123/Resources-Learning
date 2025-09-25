@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Test_Bullet" load_steps=3 format=3 uid="uid://d2cxbn083vfmb"]
+
+[ext_resource type="Script" uid="uid://cb1b3c22fwasd" path="res://Scripts/ResourceTest.gd" id="1_5lo4t"]
+[ext_resource type="Texture2D" uid="uid://d1fhlii7fdgpi" path="res://Textures/buckshot.png" id="2_ogl62"]
+
+[resource]
+script = ExtResource("1_5lo4t")
+texture = ExtResource("2_ogl62")
+damage = 20.0
+penetration = 1
+speed = 50.0
+metadata/_custom_type_script = "uid://cb1b3c22fwasd"
